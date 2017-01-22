@@ -1,7 +1,7 @@
 module.exports = {
-  user          : "SYSTEM",
-  password      : "tigerit",
-  connectString : "192.168.103.21:1521/xe",
+  user          : "databaseuser",
+  password      : "your_password",
+  connectString : "your_ip:_port/_servicename",
   externalAuth  : false
 };
 
