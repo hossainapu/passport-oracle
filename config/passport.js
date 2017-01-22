@@ -12,7 +12,7 @@ module.exports = function(passport) {
     });
 
     passport.deserializeUser(function(id, done) {       
-		var selectSQL = "SELECT ID,USER_NAME,PASSWORD FROM TIGERIDM_USER WHERE id =:id";
+		var selectSQL = "SELECT ID,USER_NAME,PASSWORD FROM USER WHERE id =:id";
 		db.doConnect(function(err, connection){
 			if (err) {                  
 				return done(err,null);
@@ -40,7 +40,7 @@ module.exports = function(passport) {
         },
         function(req, user_name, password, done) {
 			LOGGER.debug('SIGNUP IS CALLED');
-            var selectSQL = "SELECT * FROM TIGERIDM_USER WHERE user_name =:user_name";
+            var selectSQL = "SELECT * FROM USER WHERE user_name =:user_name";
             var param = [];
             param.push(user_name.toUpperCase());
             db.doConnect(function(err, connection){  
@@ -66,7 +66,7 @@ module.exports = function(passport) {
                             var bindParam = [];
 							bindParam.push(user_name.toUpperCase());
 							bindParam.push(md5(password));
-                            var insertQuery = "INSERT INTO TIGERIDM_USER (user_name,password) values(:user_name,:password)";
+                            var insertQuery = "INSERT INTO USER (user_name,password) values(:user_name,:password)";
                             db.doExecute(connection,insertQuery,bindParam,function(err, insResult) {
                                 if (err) {
                                     db.doRelease(connection);
@@ -92,7 +92,7 @@ module.exports = function(passport) {
             passReqToCallback : true 
         },
 			function(req, user_name, password, done) { 
-				var selectSQL = "SELECT ID,USER_NAME,PASSWORD FROM TIGERIDM_USER WHERE user_name =:user_name ";
+				var selectSQL = "SELECT ID,USER_NAME,PASSWORD FROM USER WHERE user_name =:user_name ";
 				var param = [];
 				param.push(user_name.toUpperCase());
 				db.doConnect(function(err, connection){  
