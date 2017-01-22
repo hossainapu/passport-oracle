@@ -1,0 +1,192 @@
+[2017-01-11 18:53:02.293] [DEBUG] sms - SIGNUP IS CALLED
+[2017-01-11 18:53:02.298] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 18:53:02.302] [DEBUG] oracledb - INFO: Connections open: 2
+[2017-01-11 18:53:02.302] [DEBUG] oracledb - INFO: Connections in use: 1
+[2017-01-11 18:53:02.305] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  93
+[2017-01-11 18:53:02.307] [DEBUG] sms - USER NOT FOUND AND GOING TO INSERT
+[2017-01-11 18:53:02.313] [ERROR] oracledb - ERROR: Unable to execute the SQL:  Error: ORA-00942: table or view does not exist
+
+[2017-01-11 18:54:34.333] [DEBUG] sms - SIGNUP IS CALLED
+[2017-01-11 18:54:34.336] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 18:54:34.360] [DEBUG] oracledb - INFO: Connections open: 2
+[2017-01-11 18:54:34.360] [DEBUG] oracledb - INFO: Connections in use: 1
+[2017-01-11 18:54:34.365] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  93
+[2017-01-11 18:54:34.369] [DEBUG] sms - USER NOT FOUND AND GOING TO INSERT
+[2017-01-11 18:57:17.059] [DEBUG] sms - SIGNUP IS CALLED
+[2017-01-11 18:57:17.064] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 18:57:17.069] [DEBUG] oracledb - INFO: Connections open: 2
+[2017-01-11 18:57:17.069] [DEBUG] oracledb - INFO: Connections in use: 1
+[2017-01-11 18:57:17.072] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  10
+[2017-01-11 18:57:17.075] [ERROR] sms - USER FOUND
+[2017-01-11 18:57:17.083] [DEBUG] oracledb - Connection has been released..
+[2017-01-11 18:58:03.291] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 18:58:03.297] [DEBUG] oracledb - INFO: Connections open: 2
+[2017-01-11 18:58:03.297] [DEBUG] oracledb - INFO: Connections in use: 1
+[2017-01-11 18:58:03.299] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  10
+[2017-01-11 18:58:03.514] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 18:58:03.521] [DEBUG] oracledb - INFO: Connections open: 2
+[2017-01-11 18:58:03.523] [DEBUG] oracledb - INFO: Connections in use: 2
+[2017-01-11 18:58:03.525] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  138
+[2017-01-11 18:58:03.529] [DEBUG] sms - GOT RESULT
+[2017-01-11 18:58:03.577] [DEBUG] oracledb - Connection has been released..
+[2017-01-11 18:58:05.903] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 18:58:05.905] [DEBUG] oracledb - INFO: Connections open: 2
+[2017-01-11 18:58:05.905] [DEBUG] oracledb - INFO: Connections in use: 2
+[2017-01-11 18:58:05.907] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  138
+[2017-01-11 18:58:05.910] [DEBUG] sms - GOT RESULT
+[2017-01-11 18:58:05.915] [DEBUG] oracledb - Connection has been released..
+[2017-01-11 18:58:13.453] [DEBUG] sms - SIGNUP IS CALLED
+[2017-01-11 18:58:13.456] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 18:58:13.474] [DEBUG] oracledb - INFO: Connections open: 2
+[2017-01-11 18:58:13.475] [DEBUG] oracledb - INFO: Connections in use: 2
+[2017-01-11 18:58:13.478] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  138
+[2017-01-11 18:58:13.479] [DEBUG] sms - USER NOT FOUND AND GOING TO INSERT
+[2017-01-11 18:58:13.485] [DEBUG] sms - INSERTION RESULT:{"rowsAffected":1}
+[2017-01-11 18:58:38.194] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 18:58:38.251] [DEBUG] oracledb - INFO: Connections open: 7
+[2017-01-11 18:58:38.251] [DEBUG] oracledb - INFO: Connections in use: 3
+[2017-01-11 18:58:38.253] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  11
+[2017-01-11 18:58:38.257] [DEBUG] oracledb - Connection has been released..
+[2017-01-11 18:58:44.254] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 18:58:44.257] [DEBUG] oracledb - INFO: Connections open: 7
+[2017-01-11 18:58:44.261] [DEBUG] oracledb - INFO: Connections in use: 3
+[2017-01-11 18:58:44.262] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  11
+[2017-01-11 18:58:44.467] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 18:58:44.471] [DEBUG] oracledb - INFO: Connections open: 7
+[2017-01-11 18:58:44.471] [DEBUG] oracledb - INFO: Connections in use: 4
+[2017-01-11 18:58:44.472] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  139
+[2017-01-11 18:58:44.473] [DEBUG] sms - GOT RESULT
+[2017-01-11 18:58:44.504] [DEBUG] oracledb - Connection has been released..
+[2017-01-11 18:58:46.969] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 18:58:46.975] [DEBUG] oracledb - INFO: Connections open: 4
+[2017-01-11 18:58:46.979] [DEBUG] oracledb - INFO: Connections in use: 4
+[2017-01-11 18:58:46.981] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  139
+[2017-01-11 18:58:46.982] [DEBUG] sms - GOT RESULT
+[2017-01-11 18:58:46.985] [DEBUG] oracledb - Connection has been released..
+[2017-01-11 18:59:03.682] [DEBUG] sms - SIGNUP IS CALLED
+[2017-01-11 18:59:03.683] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 18:59:03.685] [DEBUG] oracledb - INFO: Connections open: 4
+[2017-01-11 18:59:03.685] [DEBUG] oracledb - INFO: Connections in use: 4
+[2017-01-11 18:59:03.688] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  139
+[2017-01-11 18:59:03.689] [ERROR] sms - USER FOUND
+[2017-01-11 18:59:03.693] [DEBUG] oracledb - Connection has been released..
+[2017-01-11 18:59:10.616] [DEBUG] sms - SIGNUP IS CALLED
+[2017-01-11 18:59:10.620] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 18:59:10.621] [DEBUG] oracledb - INFO: Connections open: 4
+[2017-01-11 18:59:10.621] [DEBUG] oracledb - INFO: Connections in use: 4
+[2017-01-11 18:59:10.622] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  139
+[2017-01-11 18:59:10.623] [ERROR] sms - USER FOUND
+[2017-01-11 18:59:10.624] [DEBUG] oracledb - Connection has been released..
+[2017-01-11 18:59:28.749] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 18:59:28.752] [DEBUG] oracledb - INFO: Connections open: 4
+[2017-01-11 18:59:28.753] [DEBUG] oracledb - INFO: Connections in use: 4
+[2017-01-11 18:59:28.755] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  139
+[2017-01-11 18:59:28.758] [DEBUG] oracledb - Connection has been released..
+[2017-01-11 18:59:36.454] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 18:59:36.457] [DEBUG] oracledb - INFO: Connections open: 4
+[2017-01-11 18:59:36.458] [DEBUG] oracledb - INFO: Connections in use: 4
+[2017-01-11 18:59:36.459] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  139
+[2017-01-11 18:59:36.462] [DEBUG] oracledb - Connection has been released..
+[2017-01-11 18:59:58.488] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 18:59:58.492] [DEBUG] oracledb - INFO: Connections open: 4
+[2017-01-11 18:59:58.493] [DEBUG] oracledb - INFO: Connections in use: 4
+[2017-01-11 18:59:58.493] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  139
+[2017-01-11 18:59:58.496] [DEBUG] oracledb - Connection has been released..
+[2017-01-11 19:00:04.499] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 19:00:04.501] [DEBUG] oracledb - INFO: Connections open: 4
+[2017-01-11 19:00:04.503] [DEBUG] oracledb - INFO: Connections in use: 4
+[2017-01-11 19:00:04.504] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  139
+[2017-01-11 19:00:04.713] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 19:00:04.787] [DEBUG] oracledb - INFO: Connections open: 9
+[2017-01-11 19:00:04.788] [DEBUG] oracledb - INFO: Connections in use: 5
+[2017-01-11 19:00:04.791] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  95
+[2017-01-11 19:00:04.792] [DEBUG] sms - GOT RESULT
+[2017-01-11 19:00:04.811] [DEBUG] oracledb - Connection has been released..
+[2017-01-11 19:00:07.334] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 19:00:07.338] [DEBUG] oracledb - INFO: Connections open: 9
+[2017-01-11 19:00:07.339] [DEBUG] oracledb - INFO: Connections in use: 5
+[2017-01-11 19:00:07.341] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  95
+[2017-01-11 19:00:07.343] [DEBUG] sms - GOT RESULT
+[2017-01-11 19:00:07.348] [DEBUG] oracledb - Connection has been released..
+[2017-01-11 19:00:55.857] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 19:00:55.861] [DEBUG] oracledb - INFO: Connections open: 9
+[2017-01-11 19:00:55.862] [DEBUG] oracledb - INFO: Connections in use: 5
+[2017-01-11 19:00:55.865] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  95
+[2017-01-11 19:00:55.879] [DEBUG] oracledb - Connection has been released..
+[2017-01-11 19:07:28.351] [DEBUG] sms - SIGNUP IS CALLED
+[2017-01-11 19:07:28.358] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 19:07:28.370] [DEBUG] oracledb - INFO: Connections open: 2
+[2017-01-11 19:07:28.370] [DEBUG] oracledb - INFO: Connections in use: 1
+[2017-01-11 19:07:28.373] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  139
+[2017-01-11 19:07:28.375] [DEBUG] sms - USER NOT FOUND AND GOING TO INSERT
+[2017-01-11 19:07:28.380] [DEBUG] sms - INSERTION RESULT:{"rowsAffected":1}
+[2017-01-11 19:07:42.252] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 19:07:42.255] [DEBUG] oracledb - INFO: Connections open: 2
+[2017-01-11 19:07:42.256] [DEBUG] oracledb - INFO: Connections in use: 2
+[2017-01-11 19:07:42.258] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  91
+[2017-01-11 19:07:42.475] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 19:07:42.542] [DEBUG] oracledb - INFO: Connections open: 7
+[2017-01-11 19:07:42.542] [DEBUG] oracledb - INFO: Connections in use: 3
+[2017-01-11 19:07:42.544] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  51
+[2017-01-11 19:07:42.546] [DEBUG] sms - GOT RESULT
+[2017-01-11 19:07:42.585] [DEBUG] oracledb - Connection has been released..
+[2017-01-11 19:07:44.916] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 19:07:44.920] [DEBUG] oracledb - INFO: Connections open: 7
+[2017-01-11 19:07:44.921] [DEBUG] oracledb - INFO: Connections in use: 3
+[2017-01-11 19:07:44.923] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  51
+[2017-01-11 19:07:44.926] [DEBUG] sms - GOT RESULT
+[2017-01-11 19:07:44.931] [DEBUG] oracledb - Connection has been released..
+[2017-01-11 19:08:31.687] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 19:08:31.691] [DEBUG] oracledb - INFO: Connections open: 7
+[2017-01-11 19:08:31.693] [DEBUG] oracledb - INFO: Connections in use: 3
+[2017-01-11 19:08:31.694] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  51
+[2017-01-11 19:08:31.919] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 19:08:31.923] [DEBUG] oracledb - INFO: Connections open: 7
+[2017-01-11 19:08:31.925] [DEBUG] oracledb - INFO: Connections in use: 4
+[2017-01-11 19:08:31.927] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  10
+[2017-01-11 19:08:31.929] [DEBUG] sms - GOT RESULT
+[2017-01-11 19:08:31.983] [DEBUG] oracledb - Connection has been released..
+[2017-01-11 19:08:35.643] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 19:08:35.647] [DEBUG] oracledb - INFO: Connections open: 4
+[2017-01-11 19:08:35.648] [DEBUG] oracledb - INFO: Connections in use: 4
+[2017-01-11 19:08:35.651] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  10
+[2017-01-11 19:08:35.653] [DEBUG] sms - GOT RESULT
+[2017-01-11 19:08:35.657] [DEBUG] oracledb - Connection has been released..
+[2017-01-11 19:08:58.083] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 19:08:58.086] [DEBUG] oracledb - INFO: Connections open: 4
+[2017-01-11 19:08:58.087] [DEBUG] oracledb - INFO: Connections in use: 4
+[2017-01-11 19:08:58.089] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  10
+[2017-01-11 19:08:58.304] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 19:08:58.381] [DEBUG] oracledb - INFO: Connections open: 9
+[2017-01-11 19:08:58.381] [DEBUG] oracledb - INFO: Connections in use: 5
+[2017-01-11 19:08:58.384] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  140
+[2017-01-11 19:08:58.385] [DEBUG] sms - GOT RESULT
+[2017-01-11 19:08:58.419] [DEBUG] oracledb - Connection has been released..
+[2017-01-11 19:09:06.621] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 19:09:06.622] [DEBUG] oracledb - INFO: Connections open: 9
+[2017-01-11 19:09:06.625] [DEBUG] oracledb - INFO: Connections in use: 5
+[2017-01-11 19:09:06.627] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  140
+[2017-01-11 19:09:06.628] [DEBUG] sms - GOT RESULT
+[2017-01-11 19:09:06.669] [DEBUG] oracledb - Connection has been released..
+[2017-01-11 19:09:10.119] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 19:09:10.121] [DEBUG] oracledb - INFO: Connections open: 5
+[2017-01-11 19:09:10.122] [DEBUG] oracledb - INFO: Connections in use: 5
+[2017-01-11 19:09:10.124] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  140
+[2017-01-11 19:09:10.125] [DEBUG] sms - GOT RESULT
+[2017-01-11 19:09:10.145] [DEBUG] oracledb - Connection has been released..
+[2017-01-11 19:09:24.622] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 19:09:24.625] [DEBUG] oracledb - INFO: Connections open: 5
+[2017-01-11 19:09:24.627] [DEBUG] oracledb - INFO: Connections in use: 5
+[2017-01-11 19:09:24.628] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  140
+[2017-01-11 19:09:24.837] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 19:09:24.920] [DEBUG] oracledb - INFO: Connections open: 10
+[2017-01-11 19:09:24.920] [DEBUG] oracledb - INFO: Connections in use: 6
+[2017-01-11 19:09:24.922] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  12
+[2017-01-11 19:09:24.924] [DEBUG] sms - GOT RESULT
+[2017-01-11 19:09:24.944] [DEBUG] oracledb - Connection has been released..
+[2017-01-11 19:09:26.483] [DEBUG] oracledb - INFO: Module getConnection() called - attempting to retrieve a connection using the node-oracledb driver
+[2017-01-11 19:09:26.487] [DEBUG] oracledb - INFO: Connections open: 10
+[2017-01-11 19:09:26.488] [DEBUG] oracledb - INFO: Connections in use: 6
+[2017-01-11 19:09:26.491] [DEBUG] oracledb - INFO: Connection retrieved from the database, SESSION ID:  12
+[2017-01-11 19:09:26.493] [DEBUG] sms - GOT RESULT
+[2017-01-11 19:09:26.496] [DEBUG] oracledb - Connection has been released..

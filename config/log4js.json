@@ -1,0 +1,21 @@
+{
+  "appenders": [
+    {
+      "type": "clustered",
+      "appenders": [
+        {
+          "type": "dateFile",
+          "filename": "/opt/nodejs/passport-oracle/log/access.log",
+          "pattern": "-yyyy-MM-dd",
+          "category": "http"
+        },
+        {
+          "type": "file",
+          "filename": "/opt/nodejs/passport-oracle/log/app.log",
+          "maxLogSize": 10485760,
+          "numBackups": 3
+        }
+      ]
+    }
+  ]
+}
